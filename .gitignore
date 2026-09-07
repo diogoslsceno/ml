@@ -10,6 +10,31 @@ __pycache__/
 env/
 venv/
 
+# Environment variables & secrets
+.env
+.env.*
+*.pem
+*.key
+secrets.json
+config.json
+*.crt
+*.p12
+
+# ML Models & Heavy Binaries
+*.pkl
+*.joblib
+*.h5
+*.keras
+*.pt
+*.pth
+*.onnx
+*.pb
+
+# Logs & Temporary Data
+*.log
+tmp/
+.cache/
+
 # OS / Editor files
 .DS_Store
 .vscode/
